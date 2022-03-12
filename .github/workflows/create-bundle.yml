@@ -23,5 +23,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
+          echo "::debug:: codeql-bundle-20220214-$(git rev-parse --short $GITHUB_SHA)"
           tar -czf codeql-bundle.tar.gz codeql          
           gh release create codeql-bundle-20220214-$(git rev-parse --short $GITHUB_SHA) codeql-bundle.tar.gz
