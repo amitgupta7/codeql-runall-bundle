@@ -3,7 +3,8 @@ library: false
 name: codeql/javascript-queries
 version: 0.0.10
 buildMetadata:
-  creationTime: 2022-03-07T05:09:51.103559232Z
+  sha: c3154ecc7ab84c26bb7a23c418c272bf742a21a1
+  creationTime: 2022-03-12T14:46:33.155507Z
   cliVersion: 2.8.1
 dependencies:
   codeql/javascript-all: '*'

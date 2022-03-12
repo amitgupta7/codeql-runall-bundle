@@ -1,5 +1,4 @@
-- description: Selectors for selecting the Code-Scanning-relevant queries for a language
+- description: Selectors for selecting the security-and-quality queries for a language
 - include:
     query path:
       - /^.*/
-
