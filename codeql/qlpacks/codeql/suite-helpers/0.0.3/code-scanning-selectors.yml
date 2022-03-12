@@ -2,3 +2,13 @@
 - include:
     tags contain:
     - security
+- include:
+    kind:
+    - problem
+    - path-problem
+    - diagnostic
+- include:
+    kind:
+    - metric
+    tags contain:
+    - summary
