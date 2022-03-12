@@ -1,8 +1,5 @@
 - description: Selectors for selecting the Code-Scanning-relevant queries for a language
 - include:
-    tags contain:
-    - security
-- include:
     kind:
     - problem
     - path-problem
