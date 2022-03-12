@@ -1,0 +1,13 @@
+---
+library: true
+name: codeql/ruby-all
+version: 0.0.9
+buildMetadata:
+  sha: 74ed89409cd1d3f836c646ea82bb70a53fcca306
+  creationTime: 2022-02-14T17:41:26.344686Z
+  cliVersion: 2.8.1
+dbscheme: ruby.dbscheme
+extractor: ruby
+upgrades: upgrades
+groups:
+ - ruby

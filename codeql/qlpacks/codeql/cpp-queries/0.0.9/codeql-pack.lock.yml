@@ -1,0 +1,8 @@
+---
+dependencies:
+  codeql/cpp-all:
+    version: 0.0.9
+  codeql/suite-helpers:
+    version: 0.0.3
+compiled: true
+lockVersion: 1.0.0

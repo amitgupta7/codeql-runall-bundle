@@ -1,0 +1,12 @@
+---
+library: false
+name: codeql/python-examples
+buildMetadata:
+  sha: 74ed89409cd1d3f836c646ea82bb70a53fcca306
+  creationTime: 2022-02-14T17:48:05.490188Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/python-all: '*'
+groups:
+ - python
+ - examples

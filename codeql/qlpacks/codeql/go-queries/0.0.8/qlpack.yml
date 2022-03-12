@@ -1,0 +1,17 @@
+---
+library: false
+name: codeql/go-queries
+version: 0.0.8
+buildMetadata:
+  sha: 6403a23af36f3dd0a16329c9343319249673e8ac
+  creationTime: 2022-02-14T17:42:07.400503Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/go-all: '*'
+  codeql/suite-helpers: ~0.0.2
+suites: codeql-suites
+extractor: go
+groups:
+ - go
+ - queries
+defaultSuiteFile: codeql-suites/go-code-scanning.qls

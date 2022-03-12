@@ -1,0 +1,17 @@
+---
+library: false
+name: codeql/cpp-queries
+version: 0.0.9
+buildMetadata:
+  sha: 74ed89409cd1d3f836c646ea82bb70a53fcca306
+  creationTime: 2022-02-14T17:40:38.630819Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/cpp-all: '*'
+  codeql/suite-helpers: '*'
+suites: codeql-suites
+extractor: cpp
+groups:
+ - cpp
+ - queries
+defaultSuiteFile: codeql-suites/cpp-code-scanning.qls

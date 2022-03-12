@@ -1,0 +1,13 @@
+---
+library: true
+name: codeql/go-all
+version: 0.0.8
+buildMetadata:
+  sha: 6403a23af36f3dd0a16329c9343319249673e8ac
+  creationTime: 2022-02-14T17:42:06.167982Z
+  cliVersion: 2.8.1
+dbscheme: go.dbscheme
+extractor: go
+upgrades: upgrades
+groups:
+ - go

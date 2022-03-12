@@ -1,0 +1,8 @@
+---
+dependencies:
+  codeql/go-all:
+    version: 0.0.8
+  codeql/suite-helpers:
+    version: 0.0.2
+compiled: true
+lockVersion: 1.0.0

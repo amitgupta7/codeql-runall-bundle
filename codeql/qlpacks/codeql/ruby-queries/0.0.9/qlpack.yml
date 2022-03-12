@@ -1,0 +1,15 @@
+---
+library: false
+name: codeql/ruby-queries
+version: 0.0.9
+buildMetadata:
+  creationTime: 2022-03-07T06:29:13.320927126Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/ruby-all: '*'
+  codeql/suite-helpers: '*'
+suites: codeql-suites
+groups:
+ - ruby
+ - queries
+defaultSuiteFile: codeql-suites/ruby-code-scanning.qls

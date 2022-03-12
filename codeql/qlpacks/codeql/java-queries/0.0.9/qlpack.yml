@@ -1,0 +1,16 @@
+---
+library: false
+name: codeql/java-queries
+version: 0.0.9
+buildMetadata:
+  creationTime: 2022-03-07T04:12:12.156672248Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/java-all: '*'
+  codeql/suite-helpers: '*'
+suites: codeql-suites
+extractor: java
+groups:
+ - java
+ - queries
+defaultSuiteFile: codeql-suites/java-code-scanning.qls

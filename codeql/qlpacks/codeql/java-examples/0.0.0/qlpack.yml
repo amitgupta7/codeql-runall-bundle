@@ -1,0 +1,12 @@
+---
+library: false
+name: codeql/java-examples
+buildMetadata:
+  sha: 74ed89409cd1d3f836c646ea82bb70a53fcca306
+  creationTime: 2022-02-14T17:56:15.689581Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/java-all: '*'
+groups:
+ - java
+ - examples

@@ -1,0 +1,12 @@
+---
+library: false
+name: codeql/go-examples
+buildMetadata:
+  sha: 6403a23af36f3dd0a16329c9343319249673e8ac
+  creationTime: 2022-02-14T17:51:10.196744Z
+  cliVersion: 2.8.1
+dependencies:
+  codeql/go-all: '*'
+groups:
+ - go
+ - examples

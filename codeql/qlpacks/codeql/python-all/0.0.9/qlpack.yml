@@ -1,0 +1,13 @@
+---
+library: true
+name: codeql/python-all
+version: 0.0.9
+buildMetadata:
+  sha: 74ed89409cd1d3f836c646ea82bb70a53fcca306
+  creationTime: 2022-02-14T17:41:02.358377Z
+  cliVersion: 2.8.1
+dbscheme: semmlecode.python.dbscheme
+extractor: python
+upgrades: upgrades
+groups:
+ - python
